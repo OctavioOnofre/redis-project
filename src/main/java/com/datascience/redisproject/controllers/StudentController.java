@@ -3,13 +3,10 @@ package com.datascience.redisproject.controllers;
 import com.datascience.redisproject.models.Student;
 import com.datascience.redisproject.services.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.lang.reflect.Field;
-import java.util.ArrayList;
 import java.util.List;
 
 
