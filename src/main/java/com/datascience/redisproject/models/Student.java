@@ -1,7 +1,12 @@
 package com.datascience.redisproject.models;
 
 
-public class Student {
+import java.io.Serializable;
+
+public class Student implements Serializable {
+
+    public static final long serialVersionUID = 1L;
+
     public String id;
     public String name;
     public Integer age;

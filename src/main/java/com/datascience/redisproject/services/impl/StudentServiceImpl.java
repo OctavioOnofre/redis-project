@@ -1,6 +1,5 @@
 package com.datascience.redisproject.services.impl;
 
-import com.datascience.redisproject.configs.RedisConfig;
 import com.datascience.redisproject.models.Student;
 import com.datascience.redisproject.services.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
